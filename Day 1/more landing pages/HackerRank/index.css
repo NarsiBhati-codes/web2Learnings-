@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#bar {
+    background-image: linear-gradient(to left,black,rgb(18, 110, 115));
+    padding: 15px 350px;
+    display: flex;
+    justify-content: end;
+    color: rgb(178, 178, 178);
+}
+
+#bar a {
+    color: rgb(178, 178, 178);
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#landing {
+    background-color: black;
+    height: 96vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#business {
+    background: linear-gradient(to bottom, #f7eded, #f0f4f8);
+    width: 50%;
+}
+
+#businessNav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+   padding-left: 300px;
+   padding-right: 100px;
+}
+
+#businessNav h4 {
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+
+#developers {
+    background-color: white;
+    width: 50%;
+}
+
+#developersNav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight:700;
+}
+
+#developersNav a {
+    text-decoration: none;
+    color: black;
+}
+
+#developersNav div a {
+    padding-right: 20px;
+}
+
+#requestBtn {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#businessLogin {
+    text-align: center;
+}
+
+#businessLogin div{
+    border: solid seagreen;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#businessLogin h1 {
+    font-size: 30px;
+}
+
+#businessLogin  h1 span{
+    color: green;
+}
+
+#businessLogin  h4 {
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#businessLogin button {
+    background-color: green;
+    padding: 10px 70px;
+    border: solid green;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#businessLogin a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

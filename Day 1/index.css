@@ -67,12 +67,12 @@ nav {
     color: rgb(178, 178, 178);
     border: 1px solid rgb(178, 178, 178);
     border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 12px;
     text-align: center;
     margin-right: 150px;
     margin-top: 100px;
     font-size: 12px;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 #landing2 {
@@ -87,7 +87,7 @@ nav {
     border: 2px;
     border-radius: 5px; 
     background-color: #2e75f8;
-    padding: 15px 30px;
+    padding: 15px 25px;
     font-weight: bold;
     font-size: 20px;
     color: white;
@@ -102,10 +102,6 @@ nav {
     padding-top: 15px;
 }
 
-#landing3 a {
-    color: #4986f6;
-}
-
 #landing4 {
     color: rgb(178, 178, 178);
     padding-top: 15px;
@@ -113,6 +109,6 @@ nav {
     font-size: 13px;
 }
 
-#landing4 a {
+#landing3 a ,#landing4 a {
     color: #4986f6;
 }
