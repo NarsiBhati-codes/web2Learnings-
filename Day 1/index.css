@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0e0e0e;
+    font-family: sans-serif;;
+}
+
+#logo {
+    color: white;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+nav {
+    padding: 10px 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+#search {
+   border: 2px;
+   border-radius: 5px; 
+   padding: 10px 30px;
+   margin-right: 10px;
+}
+
+#download {
+    border: 2px solid transparent;
+    border-radius: 5px; 
+    background-color: #2e75f8;
+    padding: 6px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+#line1 {
+    display: flex;
+    justify-content: center;
+    padding: 27px;
+    font-size: 15px;
+    color: rgb(178, 178, 178);
+}
+
+#line1 a {
+    color: #4986f6;
+    padding-right: 5px;
+}
+
+#landingPage {
+    display: flex;
+    justify-content: space-between;
+    padding:28px 340px;
+}
+
+#landing1 {
+    color: rgb(178, 178, 178);
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+#landing2 {
+    padding-top: 20px;
+    color: white;
+    font-size: 65px;
+    font-weight: 500;
+    
+}
+
+#landingBtn {
+    border: 2px;
+    border-radius: 5px; 
+    background-color: #2e75f8;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#landing3 {
+    color: rgb(178, 178, 178);
+    padding-top: 15px;
+}
+
+#landing3 a {
+    color: #4986f6;
+}
+
+#landing4 {
+    color: rgb(178, 178, 178);
+    padding-top: 15px;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+#landing4 a {
+    color: #4986f6;
+}
