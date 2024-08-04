@@ -5,11 +5,11 @@
 
 body {
     background-color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #bar {
-    background-image: linear-gradient(to left,black,rgb(18, 110, 115));
+    background-image: linear-gradient(to left, black, rgb(18, 110, 115));
     padding: 15px 350px;
     display: flex;
     justify-content: end;
@@ -18,8 +18,7 @@ body {
 
 #bar a {
     color: rgb(178, 178, 178);
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0 10px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -31,9 +30,12 @@ body {
     justify-content: space-between;
 }
 
+#business, #developers {
+    width: 50%;
+}
+
 #business {
     background: linear-gradient(to bottom, #f7eded, #f0f4f8);
-    width: 50%;
 }
 
 #businessNav {
@@ -43,8 +45,8 @@ body {
 }
 
 #logo {
-   padding-left: 300px;
-   padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 100px;
 }
 
 #businessNav h4 {
@@ -52,10 +54,8 @@ body {
     font-size: 17px;
 }
 
-
 #developers {
     background-color: white;
-    width: 50%;
 }
 
 #developersNav {
@@ -63,7 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 17px;
-    font-weight:700;
+    font-weight: 700;
 }
 
 #developersNav a {
@@ -84,31 +84,34 @@ body {
     text-align: center;
 }
 
-#businessLogin div{
-    border: solid seagreen;
+#businessLogin div {
     border-radius: 5px;
     background-color: green;
     color: white;
-    padding: 10px;
-    margin-top: 200px;
-    margin-bottom: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
+    padding: 1px;
+    text-align: center;
+    margin: 200px 430px 10px 430px;
 }
 
 #businessLogin h1 {
     font-size: 30px;
 }
 
-#businessLogin  h1 span{
+#businessLogin h1 span {
     color: green;
 }
 
-#businessLogin  h4 {
+#businessLogin h4 {
     font-weight: 400;
     padding-top: 10px;
-    line-height: 1.5;
     font-size: 20px;
+}
+
+#businessLogin p {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight:lighter;
+    margin-top: 30px;
 }
 
 #businessLogin button {
@@ -116,13 +119,21 @@ body {
     padding: 10px 70px;
     border: solid green;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 20px;
     color: #fff;
 }
 
 #businessLogin a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
     font-weight: bold;
+}
+
+#businessLogin img {
+    margin-top: 260px;
+    margin-left: 330px;
+    display: flex;
+
+    align-items: end;
 }
