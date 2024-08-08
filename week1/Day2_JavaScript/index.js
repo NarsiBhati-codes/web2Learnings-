@@ -1,4 +1,4 @@
-let fullName = 'Narsi Bhati';
+let fullName = "Narsi Bhati";
 const age = 23;
 var isStudent = true;
 

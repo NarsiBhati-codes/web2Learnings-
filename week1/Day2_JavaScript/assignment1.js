@@ -1,10 +1,10 @@
 const user = {
-    name: 'Narsi',
-    age: 23
-}
+  name: "Narsi",
+  age: 23,
+};
 
 function greet(user) {
-    console.log(`Hi ${user.name} you age is this : ${user.age} `)
+  console.log(`Hi ${user.name} you age is this : ${user.age} `);
 }
 
-greet(user)
+greet(user);
